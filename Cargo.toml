@@ -1,0 +1,11 @@
+[package]
+name = "shit"
+version = "0.1.0"
+authors = ["Jonas Platte <mail@jonasplatte.de>"]
+
+[[bin]]
+name = "shit"
+
+[dependencies]
+piston_window = "^0.47"
+serial = "^0.3"
