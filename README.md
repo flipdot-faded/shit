@@ -1,5 +1,3 @@
-Work in progress...
-
 # klobot project
 
 Here are the files for a game that can be played on a toilet in the flipdot 
