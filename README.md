@@ -34,7 +34,7 @@ While straight tubes can be drawn in a short panel, some combinations require
 longer panels. Especially crossing over to an other lane in a single short panel is 
 very hard, therefore longer panels are available.
 
-*Attention*: The connectors in the middle lane have a different grid and require sometimes long panels.
+*Attention*: The connectors in the middle lane have a different grid and crossing into the middle in a short panel is not recommended for level designers.
 
 3 tubelanes -> 49 combinations:
 
