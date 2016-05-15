@@ -34,10 +34,12 @@ While straight tubes can be drawn in a short panel, some combinations require
 longer panels. Especially crossing over to an other lane in a single short panel is 
 very hard, therefore longer panels are available.
 
+*Attention*: The connectors in the middle lane have a different grid and require sometimes long panels.
+
 3 tubelanes -> 49 combinations:
 
 ```
-001-001 (right tube straight)
+001-001 (right tube straight) -> short
 001-010 (right tube curve to middle tube)
 001-011 (right tube splits into middle and right tube)
 001-100 (right tube curve to left tube)
