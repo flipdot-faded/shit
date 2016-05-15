@@ -1,12 +1,14 @@
 Work in progress...
 
 == klobot ==
-This are the files for a game that can be played on a toilet in the flipdot 
+
+Here are the files for a game that can be played on a toilet in the flipdot 
 hackerspace Kassel. The control interface is a touchless capacitor that tracks the 
 position of your hand. The monitor is connected to a Raspberry-Pi. A motion 
 detector starts the game.
 
 === Game ===
+
 To channel Mr. Brown through the sanitary underground tubes, you need to move 
 your hand relatively to the controller. You loose if Mr. Brown touches the 
 tubewalls. You then will see the highscores of your fellow shitheads and can add 
@@ -14,7 +16,9 @@ yours. Try to stay in the game as long as possible, you have only one try per
 session! (maybe you can restart by using the lavatory brush...) 
 
 === Data ===
+
 ==== Resolution ====
+
 game screen resolution: 320x240 px
 panel resolutions: 320x240 (short), 320x480, 320x720 (long), 320x960 
 
@@ -23,6 +27,7 @@ tube wideness: 80 px
 mr.brown: 40x40 px
 
 ==== Tubes ====
+
 While straight tubes can be drawn in a short panel, some combinations require 
 longer panels. Especially crossing over to an other lane in a single short panel is 
 very hard, therefore longer panels are available.
