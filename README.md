@@ -1,7 +1,7 @@
 # klobot project
 
 Here are the files for a game that can be played on a toilet in the flipdot 
-hackerspace Kassel. The control interface is a touchless capacitor that tracks the 
+hackerspace Kassel. The control interface is a touchless capacitive sensor that tracks the 
 position of your hand. The monitor is connected to a Raspberry-Pi. A motion 
 detector starts the game.
 
