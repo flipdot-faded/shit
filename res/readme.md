@@ -30,3 +30,22 @@ lets make an easy curve to the left:
 ...
 ````
 
+now split into two tubes left and right (easy with a long straight followed by a slow angle):
+
+````
+...
+100-100
+100-101_alter
+...
+````
+
+then making it harder by using a joint within two short panels (sharp angle):
+
+````
+...
+101-011_short
+011-010_short
+...
+````
+
+...and so on.
