@@ -22,6 +22,11 @@ An easy start would look like:
 010-010_short
 ...
 ````
+![middle](https://github.com/flipdot/shit/blob/master/res/010/010-010_short.png)
+
+![middle](https://github.com/flipdot/shit/blob/master/res/010/010-010_short.png)
+
+![middle](https://github.com/flipdot/shit/blob/master/res/010/010-010_short.png)
 
 lets make an easy curve to the left:
 
@@ -32,6 +37,10 @@ lets make an easy curve to the left:
 ...
 ````
 
+![middle to left](https://github.com/flipdot/shit/blob/master/res/010/010-100.png)
+
+![left](https://github.com/flipdot/shit/blob/master/res/100/100-100.png)
+
 now split into two tubes left and right (easy with a long straight followed by a slow angle):
 
 ````
@@ -41,6 +50,10 @@ now split into two tubes left and right (easy with a long straight followed by a
 ...
 ````
 
+![left](https://github.com/flipdot/shit/blob/master/res/100/100-100.png)
+
+![split in left and right](https://github.com/flipdot/shit/blob/master/res/100/100-101_alter.png)
+
 then making it harder by using a joint within two short panels (sharp angle):
 
 ````
@@ -49,5 +62,9 @@ then making it harder by using a joint within two short panels (sharp angle):
 011-010_short
 ...
 ````
+
+![hard curve from left to the middle right is straight](https://github.com/flipdot/shit/blob/master/res/101/101-011_short.png)
+
+![join to the middle](https://github.com/flipdot/shit/blob/master/res/011/011-010_short.png)
 
 ...and so on.
