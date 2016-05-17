@@ -65,3 +65,8 @@ then making it harder by using a joint within two short panels (sharp angle):
 ![join to the middle](https://github.com/flipdot/shit/blob/master/res/011/011-010_short.png)
 
 ...and so on.
+
+
+### future graphics
+
+There will be some more alternating for the dark panel background. Maybe some fancy stuff burried next to the tubes to please the eyes... (not there yet)
