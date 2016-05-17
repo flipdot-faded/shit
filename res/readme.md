@@ -14,7 +14,7 @@ All files are named in a certain way. E.g. `100-010_short.png` means at the top 
 ### level building
 There is only one level, but it gets harder every panel. 
 
-An easy start would look like:
+An easy start could use this two panels:
 
 ````
 010-010_short
