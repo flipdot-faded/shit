@@ -19,11 +19,8 @@ An easy start would look like:
 ````
 010-010_short
 010-010_short
-010-010_short
 ...
 ````
-![middle](https://github.com/flipdot/shit/blob/master/res/010/010-010_short.png)
-
 ![middle](https://github.com/flipdot/shit/blob/master/res/010/010-010_short.png)
 
 ![middle](https://github.com/flipdot/shit/blob/master/res/010/010-010_short.png)
