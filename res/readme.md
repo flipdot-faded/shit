@@ -2,6 +2,8 @@
 
 Here are the graphics for the game.
 
+![Mr. Brown](https://github.com/flipdot/shit/blob/master/res/mr_brown.gif)
+
 ## Tubes
 
 There are three tubelanes mr.brown can to flush through. The background panels contain the tubes. They are organized in subfolders named after the active/inactive lanes at the top of the panel. This is how you can easily find the next possible conntectors.
