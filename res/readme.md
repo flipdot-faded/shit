@@ -1,6 +1,9 @@
 # Graphics
 
-Here are the graphics for the game.
+Here are the graphics for the klobot game.
+
+![game screen](https://github.com/flipdot/shit/blob/master/res/klobotgame.png)
+
 
 ## Mr Brown
 
