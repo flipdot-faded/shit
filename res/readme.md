@@ -2,7 +2,11 @@
 
 Here are the graphics for the game.
 
+## Mr Brown
+
 ![Mr. Brown](https://github.com/flipdot/shit/blob/master/res/mr_brown.gif)
+
+This is our hero. He will be drawn relatively static in the upper part of the screen while he falls and the tubes scroll up. (He still needs some more animation for left and right movement)
 
 ## Tubes
 
