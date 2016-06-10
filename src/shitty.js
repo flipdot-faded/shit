@@ -99,18 +99,23 @@ game.init = function init(){ /* Initialising canvas */
 
 };
 
-function fileCheck(path) { /* hacked function to check if a randomly generated image exists */
+/**
+ * hacked function to check if a randomly generated image exists
+ * @param  {string} path to image
+ * @return {booleans}
+ */
+function fileCheck(path) {
   var img = new Image();
   img.src = path;
   var pixelState = game.context.getImageData(0,0,1,1).data; /* get the original color of the upper right screencorner 1x1 testpixel */
-              console.log("pixelState before: " + pixelState.join(""));
+  console.log("pixelState before: " + pixelState.join(""));
   game.context.drawImage(img, 0,0,1,1); /* draw the possibly existing image in size 1x1px in this testpixel */
   var pixelHack = game.context.getImageData(0,0,1,1).data; /* if the image exists, it will been drawn and changes the color of that pixel */
-              console.log("pixelState after: " + pixelState.join(""));
+  console.log("pixelState after: " + pixelState.join(""));
   game.context.fillStyle = "rgba(" + pixelState.join(",") + ")"; /* prepare the old color for rectangle to overwrite that testpixel */
   game.context.fillRect(0,0,1,1); /* draw a 1x1 rectangle at the testpixel with the original color*/
-              var pixelReckt = game.context.getImageData(0,0,1,1).data;
-              console.log("pixelState afterafter: " + pixelReckt.join(""));
+  var pixelReckt = game.context.getImageData(0,0,1,1).data;
+  console.log("pixelState afterafter: " + pixelReckt.join(""));
   if (pixelState.join("") === pixelHack.join(""))/* test if the color of this pixel has changed */
     return false;/* false if the pixelcolor stayed the same aka. the file didn't exist */
   else
