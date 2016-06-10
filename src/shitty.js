@@ -82,6 +82,7 @@ game.init = function init(){ /* Initialising canvas */
   console.log("| |/ / |/ _ \\| '_ \\ / _ \\| __| ");
   console.log("|   <| | (_) | |_) | (_) | |_  ");
   console.log("|_|\\_\\_|\\___/|_.__/ \\___/ \\__| ");
+  console.log("## may the shit be with you ##");
 
 
   this.canvas = document.createElement('canvas');
