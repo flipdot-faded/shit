@@ -71,11 +71,18 @@ game.random = {// random generator for pipes
     this.lane1 = Math.round(Math.random ()); /* non-/existing left pipe */
     this.lane2 = Math.round(Math.random ()); /* non-/existing middle pipe */
     this.lane3 = Math.round(Math.random ()); /* non-/existing right pipe */
-    this.kind: "_short", /* here will be variations of pipes (e.g. "_short" = pipesimage 240px high, "_cross" lanes crossing, "_fancy" = eyecandy background stuff) */
-  },
+    this.kind = "_short"; /* here will be variations of pipes (e.g. "_short" = pipesimage 240px high, "_cross" lanes crossing, "_fancy" = eyecandy background stuff) */
+  }
 };
 
 game.init = function init(){ /* Initialising canvas */
+  console.log(" _    _       _           _    ");
+  console.log("| |  | |     | |         | |   ");
+  console.log("| | _| | ___ | |__   ___ | |_  ");
+  console.log("| |/ / |/ _ \\| '_ \\ / _ \\| __| ");
+  console.log("|   <| | (_) | |_) | (_) | |_  ");
+  console.log("|_|\\_\\_|\\___/|_.__/ \\___/ \\__| ");
+
 
   this.canvas = document.createElement('canvas');
   document.body.appendChild(this.canvas);
@@ -96,14 +103,14 @@ function fileCheck(path) { /* hacked function to check if a randomly generated i
   var img = new Image();
   img.src = path;
   var pixelState = game.context.getImageData(0,0,1,1).data; /* get the original color of the upper right screencorner 1x1 testpixel */
-              console.log("VORHER: " + pixelState.join(""));
+              console.log("pixelState before: " + pixelState.join(""));
   game.context.drawImage(img, 0,0,1,1); /* draw the possibly existing image in size 1x1px in this testpixel */
   var pixelHack = game.context.getImageData(0,0,1,1).data; /* if the image exists, it will been drawn and changes the color of that pixel */
-              console.log("NACHHER: " + pixelState.join(""));
+              console.log("pixelState after: " + pixelState.join(""));
   game.context.fillStyle = "rgba(" + pixelState.join(",") + ")"; /* prepare the old color for rectangle to overwrite that testpixel */
   game.context.fillRect(0,0,1,1); /* draw a 1x1 rectangle at the testpixel with the original color*/
               var pixelReckt = game.context.getImageData(0,0,1,1).data;
-              console.log("NACHERRECKT: " + pixelReckt.join(""));
+              console.log("pixelState afterafter: " + pixelReckt.join(""));
   if (pixelState.join("") === pixelHack.join(""))/* test if the color of this pixel has changed */
     return false;/* false if the pixelcolor stayed the same aka. the file didn't exist */
   else
