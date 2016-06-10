@@ -94,7 +94,7 @@ game.init = function init(){ /* Initialising canvas */
 
   // TESTING
   var img = new Image();
-  img.src = "res/010/010-010.png";
+  img.src = "../res/pipes/010/010-010.png";
   game.context.drawImage(img,0,0)
 
 
