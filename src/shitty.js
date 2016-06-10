@@ -27,8 +27,8 @@ game.pipe = {/* Background pipe segments */
     top: "010", /* top connections of 3 lanes, default start: one middle lane */
     bottom: "010", /* bottom connections of 3 lanes, default: middle lane */
     path: this.top + "/", /* path of pipe images with the same top connectors, default: "010/" */
-    kind: "_short" /* the 'kind' of a segment provides infos e.g. about crossings or imageheight, default: "_short" */
-    setImagePath: function (){ /* define a function to calculate an image path with passed connectors */
+    kind: "_short", /* the 'kind' of a segment provides infos e.g. about crossings or imageheight, default: "_short" */
+    setImagePath: function () { /* define a function to calculate an image path with passed connectors */
       this.imagePath = this.top + "-" + this.bottom + this.kind + ".png"; /* Imagepath of a 1-3 pipes segment, e.g. "010-010_short.png" */
     },
     imagePath: "",
@@ -40,12 +40,12 @@ game.pipe = {/* Background pipe segments */
     top: "010", /* top connections of 3 lanes, default: start one middle lane */
     bottom: "010", /* bottom connections of 3 lanes, default: middle lane */
     path: this.top + "/", /* path of pipe images with the same top connectors, default: "010/" */
-    kind: "_short" /* the 'kind' of a segment provides infos e.g. about crossings or imageheight, default: "_short" */
-    setImagePath: function (){ /* define a function to calculate an image path with passed connectors */
+    kind: "_short", /* the 'kind' of a segment provides infos e.g. about crossings or imageheight, default: "_short" */
+    setImagePath: function () { /* define a function to calculate an image path with passed connectors */
       this.imagePath = this.top + "-" + this.bottom + this.kind + ".png"; /* Imagepath of a 1-3 pipes segment, e.g. "010-010_short.png" */
     },
     imagePath: "",
-    image: 0 /* new Image() comming soon */
+    image: 0 /* new Image() coming soon */
   }
 };
 
