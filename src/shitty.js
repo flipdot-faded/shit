@@ -31,7 +31,7 @@ game.pipe = {/* pipe segments */
       this.imagePath = this.top + "-" + this.bottom + "_short" + ".png"; // Imagepath of 1-3 pipes, default "010-010_short.png"
     },
     imagePath: "",
-    image: 0 //new Image() // ect.. kommt nocht
+    image: 0 /* new Image() comming soon */
   },
   last: {/* pipe segment which leaves the screen */
     height: 240,/* height of the pipes segment image */
@@ -42,7 +42,7 @@ game.pipe = {/* pipe segments */
       this.imagePath = this.top + "-" + this.bottom + "_short" + ".png"; // Imagepath of 1-3 pipes, default "010-010_short.png"
     },
     imagePath: "",
-    image: 0 //new Image() // ect.. kommt nocht
+    image: 0 /* new Image() comming soon */
   }
 };
 
